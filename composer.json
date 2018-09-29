@@ -1,0 +1,16 @@
+{
+    "name": "wilder22/composerphp",
+    "authors": [
+        {
+            "name": "Florence LG",
+            "email": "flo.lg.gautier@gmail.com"
+        }
+    ],
+    "require": {
+        "ehime/hello-world": "^1.0",
+        "swiftmailer/swiftmailer": "^6.1"
+    },
+    "autoload": {
+        "psr-4": {"App\\": "src/"}
+    }
+}
